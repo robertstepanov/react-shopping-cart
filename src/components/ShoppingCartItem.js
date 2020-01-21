@@ -1,9 +1,10 @@
 import React from 'react';
 
 const Item = props => {
+	// const { products, addItem } = useContext(ProductContext);
 	return (
 		<div className="shopping-cart_item">
-			<img src={props.image} alt={`${props.title} book`} />
+			<img src={props.	image} alt={`${props.title} book`} />
 
 
 			<div>
